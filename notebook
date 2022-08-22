@@ -1,0 +1,33 @@
+git remote add URL
+#Eliminar un remote origing en git
+
+git remote -v (sea verbal)
+git push origin master (enviar cosas) 
+#Alternativa 
+git push
+
+
+git pull origin master
+git pull origin master --allow-unrelated-histories
+
+#Nombrar un alias en linux. decohist muestra los cambios del directorio
+alias decohist ="git log --all --graph --decorate --oneline"
+
+#Tags
+- Agregar un tag
+git tag -a v1.0 -m 'comment' hush
+
+-Mostrar los tags
+git tag
+git show-ref --tags
+
+
+-Publicar en GitHub
+git push origin --tags
+
+-Eliminar un tag
+git tag -d nombre_del_tag
+
+-Eliminar la referencia al tag en gitHub
+git push origin :refs/tags/tag_name
+
