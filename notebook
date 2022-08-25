@@ -31,3 +31,4 @@ git tag -d nombre_del_tag
 -Eliminar la referencia al tag en gitHub
 git push origin :refs/tags/tag_name
 
+Crear llaves públicas en Git 
